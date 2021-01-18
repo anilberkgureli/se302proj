@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Application" xml:space="preserve">
+    <value>Application/Lab (hour/week)</value>
+  </data>
+  <data name="Assistant" xml:space="preserve">
+    <value>Assistant(s)</value>
+  </data>
+  <data name="button1" xml:space="preserve">
+    <value>Create New Syllabus</value>
+  </data>
+  <data name="button2" xml:space="preserve">
+    <value>Import Syllabus</value>
+  </data>
+  <data name="button3" xml:space="preserve">
+    <value>Export HTML</value>
+  </data>
+  <data name="button4" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="buttun_save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="Contribution_Level" xml:space="preserve">
+    <value>Contribution Level</value>
+  </data>
+  <data name="Coordinator" xml:space="preserve">
+    <value>Course Coordinator</value>
+  </data>
+  <data name="CoreCourses" xml:space="preserve">
+    <value>Core Courses</value>
+  </data>
+  <data name="CourseCategory" xml:space="preserve">
+    <value>Course Category</value>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>Local Credits</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Course Description</value>
+  </data>
+  <data name="Duration" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="ECTS" xml:space="preserve">
+    <value>ECTS</value>
+  </data>
+  <data name="FieldWork" xml:space="preserve">
+    <value>Field Work</value>
+  </data>
+  <data name="Field_Work" xml:space="preserve">
+    <value>Field Work</value>
+  </data>
+  <data name="FinalExam" xml:space="preserve">
+    <value>Final Exam</value>
+  </data>
+  <data name="Final_Exam" xml:space="preserve">
+    <value>Final Exam</value>
+  </data>
+  <data name="form_Main" xml:space="preserve">
+    <value>Sllyabus Application</value>
+  </data>
+  <data name="Homework_Assignments" xml:space="preserve">
+    <value>Homework / Assignments</value>
+  </data>
+  <data name="Homework_Assignmentss" xml:space="preserve">
+    <value>Homework / Assignments</value>
+  </data>
+  <data name="label1" xml:space="preserve">
+    <value>Registered Courses</value>
+  </data>
+  <data name="Laboratory_Applicationxtbooks" xml:space="preserve">
+    <value>Laboratory / Application</value>
+  </data>
+  <data name="Laboratory_Application_Hours" xml:space="preserve">
+    <value>Laboratory / Application Hours</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Course Language</value>
+  </data>
+  <data name="Lecturer" xml:space="preserve">
+    <value>Course Lecturer(s)</value>
+  </data>
+  <data name="Level" xml:space="preserve">
+    <value>Course Level</value>
+  </data>
+  <data name="MajorAreaCourses" xml:space="preserve">
+    <value>Major Area Courses</value>
+  </data>
+  <data name="Materials" xml:space="preserve">
+    <value>Suggested Readings/Materials</value>
+  </data>
+  <data name="MediaandManagementSkillsCourses" xml:space="preserve">
+    <value>Media and Management Skills Courses</value>
+  </data>
+  <data name="Midterm" xml:space="preserve">
+    <value>Midterm</value>
+  </data>
+  <data name="Midtermss" xml:space="preserve">
+    <value>Midterms</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="Numberr" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="Objectives" xml:space="preserve">
+    <value>Course Objectives</value>
+  </data>
+  <data name="OralExams" xml:space="preserve">
+    <value>Oral Exams</value>
+  </data>
+  <data name="Oral_Exam" xml:space="preserve">
+    <value>Oral Exam</value>
+  </data>
+  <data name="Outcomes" xml:space="preserve">
+    <value>Learning Outcomes</value>
+  </data>
+  <data name="Participation" xml:space="preserve">
+    <value>Participation</value>
+  </data>
+  <data name="Prerequisites" xml:space="preserve">
+    <value>Prerequisites</value>
+  </data>
+  <data name="Presentation_Jury" xml:space="preserve">
+    <value>Presentation / Jury</value>
+  </data>
+  <data name="Presentation_Juryy" xml:space="preserve">
+    <value>Presentation / Jury</value>
+  </data>
+  <data name="Program_Competencies_Outcomes" xml:space="preserve">
+    <value>Program Competencies/Outcomes</value>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="Projectt" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="Quizzes_StudioCritiques" xml:space="preserve">
+    <value>Quizzes / Studio Critiques</value>
+  </data>
+  <data name="Quizzes_Studio_Critiques" xml:space="preserve">
+    <value>Quizzes / Studio Critiques</value>
+  </data>
+  <data name="RelatedPreparation" xml:space="preserve">
+    <value>Related Preparation</value>
+  </data>
+  <data name="Semester" xml:space="preserve">
+    <value>Semester</value>
+  </data>
+  <data name="SemesterActivities" xml:space="preserve">
+    <value>Semester Activities</value>
+  </data>
+  <data name="SemesterActivitiess" xml:space="preserve">
+    <value>Semester Activities</value>
+  </data>
+  <data name="Seminar_Workshop" xml:space="preserve">
+    <value>Seminar / Workshop</value>
+  </data>
+  <data name="Seminar_Workshopp" xml:space="preserve">
+    <value>Seminar / Workshop</value>
+  </data>
+  <data name="sLessonName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Study_Hours_Out_of_Class" xml:space="preserve">
+    <value>Study Hours Out of Class</value>
+  </data>
+  <data name="Subjects" xml:space="preserve">
+    <value>Subjects</value>
+  </data>
+  <data name="SupportiveCourses" xml:space="preserve">
+    <value>Supportive Courses</value>
+  </data>
+  <data name="Textbooks" xml:space="preserve">
+    <value>Course Notes/Textbooks</value>
+  </data>
+  <data name="TheoreticalCourseHours" xml:space="preserve">
+    <value>Theoretical Course Hours</value>
+  </data>
+  <data name="Theory" xml:space="preserve">
+    <value>Theory (hour/week)</value>
+  </data>
+  <data name="TransferableSkillCourses" xml:space="preserve">
+    <value>Transferable Skill Courses</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Course Type</value>
+  </data>
+  <data name="Week" xml:space="preserve">
+    <value>Week</value>
+  </data>
+  <data name="Weigthing" xml:space="preserve">
+    <value>Weigthing</value>
+  </data>
+  <data name="Workload" xml:space="preserve">
+    <value>Workload</value>
+  </data>
+  <data name="buttun_save_main" xml:space="preserve">
+    <value>Reload</value>
+  </data>
+  <data name="label2" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="button_import" xml:space="preserve">
+    <value>İmport</value>
+  </data>
+  <data name="button_export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="label_Lessonss" xml:space="preserve">
+    <value>Course</value>
+  </data>
+</root>
