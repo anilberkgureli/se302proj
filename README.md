@@ -18,7 +18,7 @@ The project does provide ease of use to user in order to create or edit a new or
 
 ### **Built With**
 * Microsoft Visual Studio
-* SQLLite
+* MSSql
 
 ### Installation
 
